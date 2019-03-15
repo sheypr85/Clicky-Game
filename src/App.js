@@ -4,11 +4,10 @@ import React, {
 import Nav from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 import PictureCard from './components/Cards';
-import Score from './components/Score';
 import pictures from "./pictures.json";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+ 
   state = {
     pictures,
     score: 0,
@@ -17,7 +16,14 @@ class App extends Component {
   };
 
 resetCards = pictures => {
-    const resetPictures = pictures.map(item => ({ item, clicked: false }));
+   
+
+    const resetPictures = pictures.map(item => ({ 
+      id: item.id,
+      image: item.image,
+      name: item.name, 
+      clicked: false
+     }));
     if (this.timeoutId) {
     clearTimeout(this.timeoutId);
 }
@@ -50,7 +56,7 @@ correctPick = newData => {
 
 wrongPick = newData => {
   this.setState({
-      friends: this.resetCards(newData),
+      pictures: this.resetCards(newData),
       score: 0,
       show:false
       
@@ -83,10 +89,11 @@ cardClicked = id => {
     return (
       <div>
         
-        <Nav>
+        <Nav 
           score={this.state.score}
-          topScore={this.state.topScore}
-        </Nav>
+          topScore={this.state.topScore}/>
+       
+        
         <Wrapper>
           <div className="row">
         

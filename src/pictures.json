@@ -2,62 +2,74 @@
     {
       "id": 1,
       "name": "Roger",
-      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Roger_Smith.png"
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Roger_Smith.png",
+      "clicked": false
     },
     {
       "id": 2,
       "name": "Stan Smith",
-      "image": "https://upload.wikimedia.org/wikipedia/en/6/63/Stan_Smith.png"
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/63/Stan_Smith.png",
+      "clicked": false
     },
     {
       "id": 3,
       "name": "Steve",
-      "image": "https://upload.wikimedia.org/wikipedia/en/b/bc/Steve_Smith.png"
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bc/Steve_Smith.png",
+      "clicked": false
     },
     {
       "id": 4,
       "name": "Klaus",
-      "image": "https://upload.wikimedia.org/wikipedia/en/2/24/An_image_of_Klaus_Heissler_in_a_water_bowl.png"
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/24/An_image_of_Klaus_Heissler_in_a_water_bowl.png",
+      "clicked": false
     },
     {
       "id": 5,
       "name": "Hayley",
-      "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/Hayley_Smith.png"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/Hayley_Smith.png",
+      "clicked": false
     },
     {
       "id": 6,
       "name": "Francine",
-      "image": "https://upload.wikimedia.org/wikipedia/en/d/da/Francine_Smith.png"
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/da/Francine_Smith.png",
+      "clicked": false
     },
     {
       "id": 7,
       "name": "Louise",
-      "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b9/Louise_render.png/revision/latest?cb=20130113075349"
+      "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b9/Louise_render.png/revision/latest?cb=20130113075349",
+      "clicked": false
     },
     {
       "id": 8,
       "name": "Linda",
-      "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b7/Lindab.png/revision/latest?cb=20130113071354"
+      "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b7/Lindab.png/revision/latest?cb=20130113071354",
+      "clicked": false
     },
     {
       "id": 9,
       "name": "Bob",
-      "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/3/3e/Bobbelcher2.png/revision/latest?cb=20130114075133"
+      "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/3/3e/Bobbelcher2.png/revision/latest?cb=20130114075133",
+      "clicked": false
     },
     {
       "id": 10,
       "name": "Tina",
-      "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/6/6e/Tina_render.png/revision/latest?cb=20130113192209"
+      "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/6/6e/Tina_render.png/revision/latest?cb=20130113192209",
+      "clicked": false
     },
     {
       "id": 11,
       "name": "Hugo",
-      "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/1/17/Hugo_Habercore.png/revision/latest?cb=20130305170235"
+      "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/1/17/Hugo_Habercore.png/revision/latest?cb=20130305170235",
+      "clicked": false
     },
     {
       "id": 12,
       "name": "Calvin",
-      "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/7/7e/Mr._Fischoeder.png/revision/latest?cb=20130305161036"
+      "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/7/7e/Mr._Fischoeder.png/revision/latest?cb=20130305161036",
+      "clicked": false
     }
   ]
   
